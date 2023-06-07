@@ -5,7 +5,7 @@ gcc -std=gnu99 -Wall -g -o smallsh smallsh.c
 smallsh
 ```
 
-This program will:
+This program does:
 - Provide a prompt for running commands
 - Handle blank lines and comments, which are lines beginning with the # character
 - Provide expansion for the variable $$
